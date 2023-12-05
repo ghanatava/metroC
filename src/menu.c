@@ -38,11 +38,8 @@ int menu() {
                 printf("Finding Shortest Route...\n");
                 dijkstra_caller(source,destination);
                 break;
+                
             case 3:
-                printf("Buying a Ticket...\n");
-                // Implement ticket purchase functionality here
-                break;
-            case 4:
                 printf("Exiting the GMRC Metro System CLI. Goodbye!\n");
                 exit(0);
             default:

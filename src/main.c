@@ -63,8 +63,7 @@ void displayMainMenu() {
     printf("GMRC Metro System\n");
     printf("1. View Map\n");
     printf("2. Find Shortest Route\n");
-    printf("3. Buy Ticket\n");
-    printf("4. Exit\n");
+    printf("3. Exit\n");
 }
 
 
