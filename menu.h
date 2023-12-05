@@ -1,0 +1,2 @@
+void displayMainMenu();
+int menu();
