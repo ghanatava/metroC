@@ -9,6 +9,7 @@ struct Node {
     int dest;
     int weight;
     struct Node* next;
+    struct Node* prev;
 };
 
 // Structure to represent the adjacency list
@@ -27,6 +28,7 @@ struct Node* createNode(int dest, int weight) {
     newNode->dest = dest;
     newNode->weight = weight;
     newNode->next = NULL;
+    newNode->prev = NULL;
     return newNode;
 }
 
@@ -136,8 +138,8 @@ void map() {
     addEdge(graph, 2, 3, 7);
     addEdge(graph, 3, 4, 6);
 
-    int source = 0; // Source node
-    int destination = 2; // Destination node
+    // int source = 0; // Source node
+    // int destination = 2; // Destination node
 
     printGraph(graph);
 
